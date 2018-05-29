@@ -17,6 +17,8 @@ public class Word {
 		this.literal = literal;
 		if(literal.substring(literal.length()-1, literal.length()).equals(".")) {
 			ender = true;
+		} else {
+			ender = false;
 		}
 		return this;
 	}
